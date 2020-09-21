@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CaseTecnico.IoC\CaseTecnico.IoC.csproj" />
+    <ProjectReference Include="..\CaseTecnico.Model\CaseTecnico.Model.csproj" />
+    <ProjectReference Include="..\CaseTecnico.Servic.Spec\CaseTecnico.Service.Spec.csproj" />
+  </ItemGroup>
+
+
+</Project>

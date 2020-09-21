@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CaseTecnico.Model\CaseTecnico.Model.csproj" />
+    <ProjectReference Include="..\CaseTecnico.Transport\CaseTecnico.Transport.csproj" />
+  </ItemGroup>
+
+</Project>
